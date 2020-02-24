@@ -13,9 +13,39 @@ _Before we move onto to learning a few things, there's some logistics to work ou
 * Create a Github account and email/text it to me
 * Make sure Git is installed on your computer (I got this started the other day)
   * You will probably need to do a bit of configuring it on your pc. See [guide](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-    * ```
+    * 
+    ```
       $ git config --global user.name "John Doe"
       $ git config --global user.email johndoe@example.com
-    ```sh
+    ```
+    * I suggest using Windows Powershell, not the default terminal tool.
+* Pull down this repo 
+  * See Clone or Download button on the home page for this repo
+  * Click `Use HTTPS` and copy that URL. I'll show you how to get SSH setup sometime you're in town
+  * In your powershell, create a new folder we'll use called `dev`
+    * `mkdir dev`
+  * Navigate into `dev`
+    * `cd dev`
+  * Clone down this repo
+    * `git clone https://github.com/joebettger/intro_for_david.git`
+    * Go through prompts if you get them
+  * Navigate into intro for david
+    * `cd intro_for_david`
+* Change the `README.md` file with your first commit
+  * For simplicity, start with adding some text under David's First Commit heading like HELLO WORLD
+* Save the README.md file `ctrl + s`
+* Back in powershell,
+  * Add the new file -> `git add .`
+  * Commit the new file -> `git commit -m 'my first commit (DH)`
+  * Push the updates -> `git push`
+* Make sure your changes worked!
+  * Refresh the page in your web browser and make sure the new text is there
+
+
+That's the basics of using **GIT**. We'll explore this tool a bit more before we get into any coding so that we can grab each other's code. While this may not seem that interesting, this is possibly **THE SINGLE MOST USEFUL THING YOU COULD KNOW COMING OUT OF SCHOOL AND INTO A REAL JOB WITH SOFTWARE**. 
+
+## David's First Commit Goes Below!
+
+
 
 
